@@ -3,10 +3,10 @@ package obfuscation;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Obfuscation {
     public static void main(String[] args) throws IOException {
-        
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите путь к файлу");
         String filePath = sc.nextLine();
