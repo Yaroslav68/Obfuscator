@@ -9,6 +9,7 @@ public class Obfuscation {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите путь к файлу");
+        String filePath = sc.nextLine();
         String regexFile = readUsingBufferedReader(filePath); 
         String nameFile = findNameFile(filePath); 
         String finalFile = regex(regexFile, nameFile); 
